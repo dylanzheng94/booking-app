@@ -1,0 +1,10 @@
+.input-container
+{
+    color: black;
+}
+
+.input-container-error > label > div > input
+{
+    border-color: red;
+    border-style: solid;
+}

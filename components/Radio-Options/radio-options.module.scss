@@ -1,0 +1,25 @@
+
+
+.radioLabel
+{
+   width: -webkit-fill-available;
+   cursor: pointer;
+}
+
+.radioLabel > input + div
+{
+   padding: 1em;
+   border-radius: 1em;
+}
+
+.radioLabel > input:focus + div
+{
+   border-style: solid;
+}
+
+.radioLabel > input:checked + div
+{
+   background-color: #F5F5F5;
+   font-weight: bold;
+}
+

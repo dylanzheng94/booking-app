@@ -1,0 +1,15 @@
+.nextButton
+{
+    padding: '0.5em 1em';
+    width: '8em';
+    border-radius: '2em';
+    background-color:steelblue;
+    border-style: none;
+    color: white
+}
+
+.nextButton:disabled
+{
+    background-color: gainsboro;
+    color: dimgray;
+}
